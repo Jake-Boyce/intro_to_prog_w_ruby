@@ -1,0 +1,5 @@
+In the first case, x prints 3, because inside the times method, 
+x is referring to the x defined by the global scope.
+
+In the second case, x is defined inside the times method and is 
+only available locally in that scope. x will print an error here.
