@@ -1,0 +1,2 @@
+This error message tells me that a ')' was typed into the program when a '}'
+was expected.
