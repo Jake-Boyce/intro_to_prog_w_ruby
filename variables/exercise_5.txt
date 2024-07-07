@@ -1,0 +1,3 @@
+In the first case, x will print out 3. In the second case, x will print out an
+error. This is because x is initialized in the block's scope. So it is not
+available outside of that block's scope.
