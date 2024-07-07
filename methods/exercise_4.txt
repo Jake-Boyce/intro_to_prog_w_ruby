@@ -1,0 +1,11 @@
+def scream(words)
+  words = words + "!!!!"
+  return
+  puts words
+end
+
+scream("Yippeee")
+
+This will print out nothing to the screen. On line 3, there is a return
+statement, so the method returns before it will ever get to line 4 (which would
+print out "Yippeee!!!!").
